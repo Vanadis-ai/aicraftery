@@ -26,7 +26,7 @@ The product line is named for the Old Norse *vedissa* (a knower / keeper of cont
 - **Client-server split.** Desktop connects to the local Go daemon (or a remote one) over HTTP/WebSocket. Daemon survives the window close — Telegram bots and remote clients keep working.
 - **Service mode.** Daemon registers as a launchd / systemd user service with auto-respawn — close the app, the daemon stays. Crash, the supervisor brings it back.
 - **Remote pairing.** Pair another machine with a one-time code; drive sessions running elsewhere.
-- **11 themes.** Gruvbox, Ayu, One Dark, Solarized, and more.
+- **4 themes.** Dark, Light, Dark Blue, Dark Sand.
 
 ## Install
 
